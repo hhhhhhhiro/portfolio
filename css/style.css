@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	height:100%;
+	background:white;
+	font-family: "微软雅黑";
+}
+.clear{
+	clear: both;
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+
+.title{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:10px;
+	color:#ef7c89;
+}
+hr{
+	width:50px;
+	background-color:#ef7c89; 
+	height:2px;
+	border:none;
+	margin:0 auto;
+}
+#banner{
+	width:auto;
+	height:600px;
+	background: url(../img/back6.png) no-repeat;
+	background-size:cover;
+	font-size:1.8em;
+	position: relative;
+}
+#banner p{
+	color:white;
+	font-size:2.9em;
+	position: absolute;
+	top:23%;
+	left:22%;
+}
+
+/*#banner .mask{
+	position: relative;
+	width:100%;
+	height:100%;
+	background:#21d0b9;
+	opacity:0.7;
+}*/
+#banner a{
+	color:white;
+}
+#banner a:hover{
+	color:rgba(61,60,60,1.00);
+}
+#banner ul{
+	width:75%;
+	height:200px;
+	position:absolute;
+	top:60%;
+	right:0;
+	left:0;
+	margin:0 auto;
+}
+#banner ul li{
+	float:left;
+	width:33.3%;
+	height:200px;
+	text-align: center;
+	display: inline-block;
+	line-height: 200px;
+}
+
+#profile{
+	width:70%;
+	height:650px;
+	/*background:pink;*/
+	margin:50px auto;
+	position:relative;
+}
+
+#profile .photo{
+	height:240px;
+	width:240px;
+	border:2px pink double;
+	border-radius:120px;
+	background:url(../img/Q01.jpg) no-repeat;
+	background-size:contain;
+	float:left;
+	margin-right:30px;
+}
+#profile .article{
+	height:240px;
+	color:black;
+	font-size:1.1em;
+	padding-top:45px;
+	/*text-align: center;*/
+}
+
+#profile .skill-p{
+	width:600px;
+	height:400px;
+	position: absolute;
+	left:0;
+}
+#profile .skill-s{
+	width:400px;
+	height:300px;
+	padding-top:100px;
+	position: absolute;
+	right:0;
+}
+
+
+#works{
+	width:70%;
+	height:1150px;
+	margin:80px auto;
+	/*background:rgba(203,203,203,1.00);*/
+	border:5px double pink;
+}
+
+#works .item{
+	margin:15px 120px;
+}
+#works .item  .pic{
+	height:230px;
+	width:230px;
+	border:white thin solid;
+	border-radius:15px;
+	float:left;
+}
+#works .item  .pic1{
+	background: url(../img/pic1.png) no-repeat;
+	background-size:contain;
+}
+#works .item  .pic2{
+	background: url(../img/pic2.png) no-repeat;
+	background-size:contain;
+}
+#works .item  .pic3{
+	background: url(../img/pic3.png) no-repeat;
+	background-size:contain;
+}
+#works .item  .pic4{
+	background: url(../img/pic4.png) no-repeat;
+	background-size:contain;
+}
+#works .item  .text{
+	font-size:1.1em;
+	margin-left:50px;
+	margin-top:50px;
+	float:left;
+}
+
+#contact{
+	width:100%;
+	height:200px;
+	color:hotpink;
+	text-align:center;
+	border-top:2px solid pink;
+}
+#contact p{
+	margin-top:30px;
+	font-size:1.5em;
+}

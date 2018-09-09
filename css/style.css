@@ -35,6 +35,10 @@ hr{
 	border:none;
 	margin:0 auto;
 }
+.pink{
+	font-weight: bold;
+	color:#ef7c89;
+}
 #banner{
 	width:auto;
 	height:600px;
@@ -128,14 +132,16 @@ hr{
 }
 
 #works .item{
-	margin:15px 120px;
+	margin:20px auto;
 }
 #works .item  .pic{
 	height:230px;
 	width:230px;
 	border:white thin solid;
 	border-radius:15px;
-	float:left;
+	/*float:left;*/
+	margin:0 auto;
+	margin-bottom:15px;
 }
 #works .item  .pic1{
 	background: url(../img/pic1.png) no-repeat;
@@ -155,9 +161,8 @@ hr{
 }
 #works .item  .text{
 	font-size:1.1em;
-	margin-left:50px;
-	margin-top:50px;
-	float:left;
+	margin:30px auto;
+	text-align: center;
 }
 
 #contact{
@@ -172,3 +177,4 @@ hr{
 	margin-top:30px;
 	font-size:1.5em;
 }
+
